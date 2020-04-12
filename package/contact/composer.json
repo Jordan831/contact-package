@@ -1,0 +1,22 @@
+{
+    "name": "Vikram/Contact",
+    "description": "This will send email to customer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordan831",
+            "email": "vicky.electron831@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "classmap": [
+           "src/migrations"
+       ],
+        "psr-0": {
+            "Vikram\\Contact\\": "src/"
+        }
+    }
+}
